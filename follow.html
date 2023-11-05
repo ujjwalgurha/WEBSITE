@@ -1,0 +1,125 @@
+<!DOCTYPE html>
+<html>
+    <head>
+
+        <title> SOME OTHER THINGS </title>
+        <link rel="styleSheet" type="text/css" href="follow.css"\>
+
+    </head>
+    
+    <body>
+
+        <div class = "header">
+           <center><h2> SOME OTHER THINGS </h2></center>
+          
+          
+           <!DOCTYPE html>
+           <html>
+           <head>
+               <meta charset="UTF-8">
+               <title>Suggestion Box</title>
+               <style>
+                   body {
+                       font-family: Arial, sans-serif;
+                       margin: 20px;
+                   }
+                   .suggestion-form {
+                       max-width: 400px;
+                       margin: 0 auto;
+                       padding: 20px;
+                       border: 1px solid #ccc;
+                       background-color: #f9f9f9;
+                   }
+                   .form-group {
+                       margin-bottom: 10px;
+                   }
+               </style>
+           </head>
+           <body>
+               <div class="suggestion-form">
+                   <h2>Suggestion Box</h2>
+                   <form action="process_suggestion.php" method="post">
+                       <div class="form-group">
+                           <label for="suggestion">Enter your suggestion:</label>
+                           <textarea name="suggestion" id="suggestion" rows="4" cols="50"></textarea>
+                       </div>
+                       <div class="form-group">
+                           <input type="submit" value="Submit Suggestion">
+                       </div>
+                   </form>
+               </div>
+           </body>
+           </html>
+           <!DOCTYPE html>
+           <html>
+           <head>
+               <meta charset="UTF-8">
+               <title>Sign In</title>
+               <style>
+                   body {
+                       font-family: Arial, sans-serif;
+                       margin: 2px;
+                   }
+                   .signin-form {
+                       max-width: 300px;
+                       margin: 0 auto;
+                       padding: 20px;
+                       border: 1px solid #ccc;
+                       background-color: #f9f9f9;
+                   }
+                   .form-group {
+                       margin-bottom: 10px;
+                   }
+               </style>
+           </head>
+           <body>
+               <div class="signin-form">
+                   <h2>Sign In</h2>
+                   <form id="sign-in-form" method="post">
+                       <div class="form-group">
+                           <label for="username">Username:</label>
+                           <input type="text" name="username" id="username" required>
+                       </div>
+                       <div class="form-group">
+                           <label for="password">Password:</label>
+                           <input type="password" name="password" id="password" required>
+                       </div>
+                       <div class="form-group">
+                           <input type="submit" value="Sign In">
+                       
+                       </div>
+                   </form>
+               </div>
+               <script>
+                   document.getElementById('sign-in-form').addEventListener('submit', function (e) {
+                       e.preventDefault();
+           
+                       var username = document.getElementById('username').value;
+                       var password = document.getElementById('password').value;
+           
+                       // In a real application, you would perform authentication here.
+                       // This is a simple example that just displays the provided credentials.
+                       alert('Username: ' + username + '\nPassword: ' + password);
+                      
+                   });
+               </script>
+           </body>
+           </html>
+            
+
+            <div class = "menu">
+                <a href = "index.html"> Home </a>
+            </div>
+        </div>
+        
+        <div class = "grid">
+
+            <div class = "intro">
+                <center><h2><p> 
+                </p></h2></center>
+            </div>
+            
+        </div>
+
+    </body>
+</html>
